@@ -1,0 +1,105 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.section-wrap {
+    background-color: black;
+}
+
+/* Contact */
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-image {
+    width: 50px;
+}
+
+.head-text {
+    font-size: 2rem;
+    font-weight: bold;
+    color: blue;
+    text-decoration: none;
+    padding: 15px;
+    cursor: pointer;
+}
+
+
+.contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 50px 100px;
+    border: 1px solid blue;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid blue;
+    width: 80%;
+    height: 100%;
+}
+
+form label {
+    color: blue;
+    font-weight: bold;
+}
+
+.form-1 , .form-2, .form-3 {
+    display: flex;
+    width: 40vh;
+    height: 5vh;
+    cursor: pointer;
+}
+
+.form-1::placeholder, .form-2::placeholder, .form-3::placeholder {
+    color: blue;
+    font-size: 1.1rem;
+}
+
+textarea {
+    width: 40vh;
+    height: 20vh;
+    cursor: pointer;
+}
+
+textarea::placeholder {
+    color: blue;
+    font-size: 1.1rem;
+}
+
+
+.right img {
+    height: 100%;
+    cursor: pointer;
+}
+
+.grid {
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+}
+
+.bi-house-door {
+    color: blue;
+    display: flex;
+}
+
+.bi-envelope {
+    color: blue;
+    display: flex;
+}
+
+.bi-telephone {
+    color: blue;
+    display: flex;
+}
